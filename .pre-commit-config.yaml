@@ -14,3 +14,8 @@ repos:
     args: [--autofix]
   - id: pretty-format-yaml
     args: [--autofix, --indent, '2']
+
+- repo: https://github.com/yuvipanda/pre-commit-hook-ensure-sops
+  rev: v1.0
+  hooks:
+  - id: sops-encryption
