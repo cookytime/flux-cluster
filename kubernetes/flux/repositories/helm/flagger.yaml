@@ -3,8 +3,9 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: bjw-s
+  name: flagger
   namespace: flux-system
 spec:
   interval: 2h
-  url: https://bjw-s.github.io/helm-charts/
+  url: oci://ghcr.io/fluxcd/charts
+  type: oci
