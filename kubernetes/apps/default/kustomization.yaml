@@ -4,10 +4,11 @@ kind: Kustomization
 resources:
   - ./namespace.yaml
   - ./echo-server/ks.yaml
+  - ./cloudnative-pg/ks.yaml
   - ./hajimari/ks.yaml
   - ./authelia/ks.yaml
   - ./tautulli/ks.yaml
-  - ./bazzarr/ks.yaml
+  - ./bazarr/ks.yaml
   - ./lidarr/ks.yaml
   - ./prowlarr/ks.yaml
   - ./radarr/ks.yaml
