@@ -79,7 +79,7 @@ spec:
         mountPath: /config
         accessMode: ReadWriteOnce
         size: 1Gi
-        storageClass: synology-iscsi-storage
+        storageClass: local-path
     persistence:
       media:
         enabled: true

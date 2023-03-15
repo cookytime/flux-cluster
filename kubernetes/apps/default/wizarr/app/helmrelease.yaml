@@ -71,7 +71,7 @@ spec:
         mountPath: /data/database
         accessMode: ReadWriteOnce
         size: 1Gi
-        storageClass: synology-iscsi-storage
+        storageClass: local-path
     resources:
       requests:
         cpu: 10m
