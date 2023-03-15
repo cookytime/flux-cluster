@@ -7,3 +7,9 @@ resources:
   - ./hajimari/ks.yaml
   - ./authelia/ks.yaml
   - ./tautulli/ks.yaml
+  - ./bazzarr/ks.yaml
+  - ./lidarr/ks.yaml
+  - ./prowlarr/ks.yaml
+  - ./radarr/ks.yaml
+  - ./sonarr/ks/yaml
+  - ./wizarr/ks.yaml

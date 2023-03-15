@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://kubernetes-schemas.devbu.io/helmrelease_v2beta1.json
+# yaml-language-server: $schema=https://kubernetes-schemas.int.glencook.tech/helmrelease_v2beta1.json
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
@@ -77,7 +77,7 @@ spec:
             10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
           hajimari.io/enable: 'false'
         hosts:
-        - host: &host '{{ .Release.Name }}.devbu.io'
+        - host: &host '{{ .Release.Name }}.int.glencook.tech'
           paths:
           - path: /
             pathType: Prefix
