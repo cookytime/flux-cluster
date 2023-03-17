@@ -96,7 +96,7 @@ spec:
         mountPath: /config
         accessMode: ReadWriteOnce
         size: 15Gi
-        storageClass: local-path
+        storageClass: syno-storage
     persistence:
       media:
         enabled: true
