@@ -17,3 +17,4 @@ resources:
   - ./wizarr/ks.yaml
   - ./redis/ks.yaml
   - ./kubernetes-schemas/ks.yaml
+  - ./theme-park/ks.yaml
