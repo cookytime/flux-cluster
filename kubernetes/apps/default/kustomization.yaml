@@ -18,4 +18,4 @@ resources:
   - ./redis/ks.yaml
   - ./kubernetes-schemas/ks.yaml
   - ./theme-park/ks.yaml
-  - ./whipsarr/ks.yaml
+  - ./whisparr/ks.yaml
